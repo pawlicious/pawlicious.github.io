@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	
+#container
+{
+	width:1347px;
+	height: 550px;
+	margin-left: 10px;
+	overflow: hidden; 
+}
+
+#slider
+{
+	position : relative;
+	width: 5464px;
+	animation-name:slideranim;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+#slider img
+{
+	float: left;
+}
+
+@keyframes slideranim
+{
+	0%
+	{
+		left:0px;
+	}
+
+	20%
+	{
+		left: 0px;
+	}
+
+	25%
+	{
+		left:-1366px;
+	}
+
+	45%
+	{
+		left:-1366px;
+
+	}
+
+	50%
+	{
+		left :-2732px;
+	}
+
+	70%
+	{
+		left:-2732px;
+
+	}
+
+	75%
+	{
+		left:-4098px;
+	}	
+
+
+}
+
+	</style>
+<title>Pawlicious</title>
+<link rel="stylesheet" href="config.css">
+<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+<link rel="short icon" type="image/png" href="logo/logo.png">
+</head>
+<body>
+	<script>
+		alert("Welcome To Pawlicious");	
+	</script>
+	<nav>
+		<a href="index.html"><img src="logosite.png"></a>
+		<ul>
+			<li><a id="page1"href="index.html">Home</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="healthcare.html">Healthcare</a></li>
+			<li><a href="accesories.html">Accesories</a></li>
+			<li><a href="Login.html">Login</a></li>
+			<li><a href="about.html">About us</a></li>
+	</nav>
+<div id="container">
+	<div id="slider">
+		<img src="Slideshow/5.jpg"/>
+		<img src="Slideshow/2.jpg"/>
+		<img src="Slideshow/3.jpg"/>
+		<img src="Slideshow/4.jpg"/>
+	</div>
+</div>
+
+</body>
+</html>
